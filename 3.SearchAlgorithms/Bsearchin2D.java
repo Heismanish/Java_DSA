@@ -11,12 +11,12 @@ public class Bsearchin2D{
      // if element < target -> row ++ 
      // if element > target -> column -- 
       Scanner take = new Scanner(System.in);
-    int [][] matrix = {
-                            {1,2,3,21,99},
-                            {6,4,8,35,100},
-                            {9,7,37,101,102},
-                            {10,12,40,210,211},
-                            {13,15,41,220,221} };
+    /*int [][] matrix = {
+                            {1,2,3,7},
+                            {6,4,8,35},
+                            {9,7,37,101},
+                            {10,12,40,210}
+                             };*/
     /*  int target = take.nextInt();     
      //System.out.println(target);   
      System.out.println(Arrays.toString(NormalSearch(multidArray,target)));      */
@@ -24,13 +24,14 @@ public class Bsearchin2D{
      
      // BINARY SEARCH IN 2D ARRAY:
 
-      // Q. Search in a Sorted matrix:
-     /*  int [][]matrix = { {1,2,3},
-              {4,5,6},
-              {7,8,9} 
-      }; */
+      // Q. Search in a perfectly Sorted matrix:
+       int [][]matrix = { {1,2,3,4},
+              {5,6,7,8},
+              {9,10,11,12},
+               {13,14,15,16}
+      };
       //int target = take.nextInt();
-      System.out.println(Arrays.toString(Search(matrix, 220)));
+      System.out.println(Arrays.toString(bSearchNew(matrix, 10)));
       
 
      
@@ -77,9 +78,9 @@ public class Bsearchin2D{
     static int [] Search(int [][] matrix, int target){
         System.out.println("Searching");
         int row = matrix.length;
-        int col = matrix[0].length; // be catious, matrix may be empty.
+        int col = matrix[0].length; // be cautious, matrix may be empty.
 
-        if( row == 1){
+        if( row == 1){ // if there is only one row in matrix
             return bSearch(matrix, 0, 0,col-1 , target);
         }
 
@@ -87,7 +88,7 @@ public class Bsearchin2D{
         int rEnd = row-1;
         int cMid = col/2;
 
-        while( rStart < (rEnd-1)){
+        while( rStart < (rEnd-1)){ //  will end when only two rows left.
             int mid = rStart+ (rEnd-rStart)/2; 
 
             if(matrix[mid][cMid] == target){
@@ -101,6 +102,7 @@ public class Bsearchin2D{
 
         }
 
+        // to search in the remaining two rows.
         if(matrix[rStart][cMid] == target){
             return new int [] {rStart,cMid};
         } 
@@ -108,6 +110,7 @@ public class Bsearchin2D{
             return new int [] {rStart+1,cMid};
         }
 
+        // to search in remaining four parts left.
         // 1st half 
         if(target <= matrix[rStart][cMid-1]){
             return bSearch(matrix, rStart, 0, cMid-1, target);
@@ -120,6 +123,7 @@ public class Bsearchin2D{
         if(target >= matrix[rStart][cMid+1] && matrix[rStart][col-1] >= target){
             return bSearch(matrix, rStart, cMid+1, col-1, target);
         }
+        // 4th half
         if(target <= matrix[rStart+1][cMid+1]){
             return bSearch(matrix, rStart+1, cMid-1,col-1, target);
         }
@@ -127,4 +131,55 @@ public class Bsearchin2D{
 
     
     }
+
+
+
+    static int [] bSearchNew(int [][] matrix,int target){
+        int row = matrix.length;
+        int col = matrix[0].length;
+        
+        if(row == 1){
+            return bSearch(matrix,0, 0, col-1, target);
+        }
+
+        int rStart = 0;
+        int rEnd = matrix.length -1 ;
+        int cMid = col/2; 
+
+        while(rStart < (rEnd-1)){
+            int mid = rStart + (rEnd-rStart)/2;
+             if(matrix [mid][cMid] == target){
+                return new int [] {mid,cMid};
+             }
+             if(matrix[mid][cMid]> target){
+                rEnd = mid;
+             } 
+             if(matrix[mid][cMid]< target){ 
+                rStart = mid;
+             }
+        }
+
+        if(matrix[rStart][cMid] == target){
+            return new int[]{rStart,cMid};
+        }
+        if(matrix[rStart+1][cMid] == target ){
+            return new int [] {rStart,cMid}; 
+        }
+
+        if(matrix[rStart][cMid-1] >= target){
+            return bSearch(matrix, rStart, 0, cMid-1, target);
+        }
+        if(matrix[rStart][cMid+1] <= target && matrix[rStart][col-1] > target ){
+            return bSearch(matrix,rStart,cMid+1,col-1,target);
+        }
+        if(matrix[rStart+1][cMid-1] >= target){
+            return bSearch(matrix,rStart+1,0,cMid-1,target);
+        }
+        else{
+            return bSearch(matrix,rStart+1,cMid+1,col-1,target);
+        }
+        //return new int []{-1,-1};
+    
+    }
+
 }
