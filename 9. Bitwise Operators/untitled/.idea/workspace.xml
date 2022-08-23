@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9aa83e93-2b95-4e96-8ac4-ec64bc843f12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../0. Loops and conditionals/Nested_switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Loops and conditionals/While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../0. Loops and conditionals/forloop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/5. String and String Builder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5. String and String Builder/out/production/5. String and String Builder/5. String and String Builder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/.idea/6. Recursion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/BSRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/Fibo_recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/NumbersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/NumbersExampleRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6. Recursion/out/production/6. Recursion/.idea/6. Recursion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patterns/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patterns/.idea/7. Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patterns/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patterns/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patterns/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patterns/Patterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7. Patterns/out/production/7. Patterns/.idea/7. Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Time Complexity/Complexity/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Time Complexity/Complexity/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Time Complexity/Complexity/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Time Complexity/Complexity/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Time Complexity/Complexity/Complexity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8. Time Complexity/Complexity/src/TIme_Complexity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BitwiseOperations.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitwiseOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0.Loops and conditionals/Nested_switch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0.Loops and conditionals/While.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0.Loops and conditionals/forloop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.SearchAlgorithms/Bsearchin2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.SearchAlgorithms/Bsearchin2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.SearchAlgorithms/Bsearchin2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.SearchAlgorithms/Bsearchin2D.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Cn1DC684Jmpx8KQpxoGUuInvHh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="BitwiseOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitwiseOperations" />
+      <module name="BitwiseOperations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BitwiseOperations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aa83e93-2b95-4e96-8ac4-ec64bc843f12" name="Changes" comment="" />
+      <created>1659423415997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659423415997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

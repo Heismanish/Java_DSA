@@ -11,12 +11,12 @@ public class Bsearchin2D{
      // if element < target -> row ++ 
      // if element > target -> column -- 
       Scanner take = new Scanner(System.in);
-    /*int [][] matrix = {
+    int [][] matrix = {
                             {1,2,3,7},
                             {6,4,8,35},
                             {9,7,37,101},
                             {10,12,40,210}
-                             };*/
+                             };
     /*  int target = take.nextInt();     
      //System.out.println(target);   
      System.out.println(Arrays.toString(NormalSearch(multidArray,target)));      */
@@ -25,18 +25,19 @@ public class Bsearchin2D{
      // BINARY SEARCH IN 2D ARRAY:
 
       // Q. Search in a perfectly Sorted matrix:
-       int [][]matrix = { {1,2,3,4},
+       /* int [][]matrix = { {1,2,3,4},
               {5,6,7,8},
               {9,10,11,12},
                {13,14,15,16}
-      };
+      }; */
       //int target = take.nextInt();
-      System.out.println(Arrays.toString(bSearchNew(matrix, 10)));
+      System.out.println(Arrays.toString(Search(matrix, 37)));
       
 
      
     }
 
+    // Normal search in an 2D array.
     static int[] NormalSearch(int[][] mArray, int target){
         int r = 0;
         int c = mArray.length -1;
@@ -54,7 +55,7 @@ public class Bsearchin2D{
         return new int[]{-1,-1};
 
     }
-
+// binary Search in an 2D array.
  // to search in provided row:
     static int [] bSearch(int [][] matrix,int row,int colStart,int colEnd,int target){
 
@@ -88,7 +89,8 @@ public class Bsearchin2D{
         int rEnd = row-1;
         int cMid = col/2;
 
-        while( rStart < (rEnd-1)){ //  will end when only two rows left.
+        //  will end when only two rows left.
+        while( rStart < (rEnd-1)){  // here (rEnd-1) is used because if not then search in last row won't be possible.
             int mid = rStart+ (rEnd-rStart)/2; 
 
             if(matrix[mid][cMid] == target){
@@ -102,7 +104,7 @@ public class Bsearchin2D{
 
         }
 
-        // to search in the remaining two rows.
+        // to search in middle column of the remaining two rows.
         if(matrix[rStart][cMid] == target){
             return new int [] {rStart,cMid};
         } 
