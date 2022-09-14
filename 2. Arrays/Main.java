@@ -14,12 +14,12 @@ public class Main {
 
         //Array : It is a collection of data types.
         // in java Array may not be internally continuous(even though it's definition says it's continuous) because:
-        // In java array objects are stored in heap, and in JSL it's mentioned that
+        // In java array objects are stored in heap, and in JLS it's mentioned that
         // heap objects are not continuous, DMA(Dynamic Array Allocation) happens at the runtime.
         // HENCE, it completely depends on JVM whether array would be continuous internally or not.
 
         // syntax:
-        //datatype[] variable_name = new.datatype[size];
+        //datatype[] variable_name = new datatype[size];
         // store 5 roll numbers:
 
         int [] ros; // declaration of array: ros is getting defined in the stack memory.
@@ -38,7 +38,7 @@ public class Main {
         System.out.println(rnos2 [0]); // it will give 2 ,i.e., 0th element of array
 
 
-        String [] arrstring =new String[4];
+        String [] arrstring = new String[4];
         System.out.println(arrstring[0]);// gives null because array is empty
 
         // null is a special "literal" which can only be assigned to non-primitive data type.

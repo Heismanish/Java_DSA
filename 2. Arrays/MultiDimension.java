@@ -25,9 +25,9 @@ public class MultiDimension {
         System.out.println(arr.length); // gives no. of rows
 
         // input
-        for (int row = 0; row < arr.length; row ++){
+        for (int row = 0; row < arr.length; row ++){ //iterate over rows
             // for each column in every row
-            for (int col = 0; col < arr[row].length; col ++){
+            for (int col = 0; col < arr[row].length; col ++){ // iterates over columns
                 arr[row][col] = take.nextInt();
             }
         }

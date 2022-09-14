@@ -9,7 +9,9 @@ public class trial {
        arr [0] = 1;
        arr [4] = 5;
        System.out.println(Arrays.toString(arr));
-      /* arr[7] = 9;
+       
+      /* 
+       arr[7] = 9;
        for(int i = 0 ; i <arr.length; i++) {
            System.out.print(arr[i]);
        }
@@ -47,10 +49,7 @@ public class trial {
         }
         */
 
-
         //ArrayList<String> trial = new ArrayList<>(3);
-
-
 
     }
 }

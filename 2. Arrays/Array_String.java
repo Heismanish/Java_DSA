@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -16,6 +15,5 @@ public class Array_String {
          // modifying
          str [2] = "manish";
         System.out.println(Arrays.toString(str));
-
     }
 }

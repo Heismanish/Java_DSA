@@ -39,7 +39,5 @@ public class Array_primitive {
             str[i] = take.next();
         }
         System.out.println(Arrays.toString(str));
-
-
     }
 }

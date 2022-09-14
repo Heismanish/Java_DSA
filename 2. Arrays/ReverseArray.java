@@ -12,7 +12,6 @@ public class ReverseArray {
         // two pointer method.
         int end = arr.length-1;
         int start = 0;
-        int temp = 0;
         while (start < end){
             //swap
             swap(arr, start,end);
