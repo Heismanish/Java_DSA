@@ -15,14 +15,14 @@ public class Scope {
             a = 98;    // but already initialised value in same method can be accessed and modified in this block.
             int c = 99;// like "c" can't be accessed outside this block.
         }
-        int c = 87; // anything inside the block can be initialised outside the block
+        int c = 87; // anything inside the block must be initialised outside the block
         System.out.println(a);
         //System.out.println(c); // c can't be accessed outside the block
 
         // Scoping in for loop
         for( int i = 0; i < 4; i++ ){
             System.out.println(i);
-            int num = 90;
+            int num = 90; // num can't be accesed out of this loop
         }
         //System.out.println(i); // can't access anything initialised inside for loop.
     }

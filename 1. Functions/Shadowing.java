@@ -3,7 +3,7 @@ public class Shadowing {
     // Shadowing in Java is the practice of using variables in overlapping scopes with the same name
    // where the variable in low-level scope overrides the variable of high-level scope.
 
-   static int x = 90; // this x is shadowed by the x in line 11.
+   static int x = 90; // this x is shadowed by the x in line 14.
     // static makes things object independent
     // here x is object independent, hence can be used in entire Shadowing class
 

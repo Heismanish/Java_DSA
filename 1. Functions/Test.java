@@ -1,4 +1,3 @@
-import java.util.Locale;
 
 public class Test{
 
@@ -6,22 +5,22 @@ public class Test{
 
         // check for palindrome in a string.
 
-      /*
-        String str ="A man, a plan, a canal: Panama";
-        str=str.replaceAll("[^a-z A-Z 0-9]","");
-        str = str.replaceAll("\\s",""  );
-        str = str.toLowerCase();
-        System.out.println(str);
-        String  rstr = "";
-        char ch;
-        for( int i=0 ; i < str.length(); i++){
-            ch = str.charAt(i);
-            rstr = ch + rstr;
-        }
-        System.out.println(rstr.equals(str));
-        System.out.println(rstr);
+      
+        // String str ="A ^[man, a plan, a canal: Panama";
+        // str=str.replaceAll("[^a-zA-Z0-9]",""); // remove everything except (a-z A-Z 0-9)
+        // str = str.replaceAll("\\s",""  ); // replace space with no space
+        // str = str.toLowerCase();
+        // System.out.println(str);
+        // String  rstr = "";
+        // char ch;
+        // for( int i=0 ; i < str.length(); i++){
+        //     ch = str.charAt(i);
+        //     rstr = ch + rstr;
+        // }
+        // System.out.println(rstr.equals(str));
+        // System.out.println(rstr);
 
-       */
+       
 
        /* s=s.toLowerCase();
         //replace all alphanumeric char
